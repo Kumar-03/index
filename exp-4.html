@@ -1,0 +1,86 @@
+<html>
+<head>
+<style> 
+table {
+  background-color:rgb(84,130,125);
+  color:white;
+}
+input[type=submit],input[type=reset]{
+background-color:chocolate;
+margin:4px 2px;
+padding:8px 30px;
+}
+
+</style>
+</head>
+<body><center>
+<table border="0"  cellpadding="5" cellspacing="10" >
+<form><tr>
+<th colspan="4">
+<h1> Application Form </h1></th></tr>
+<tr>
+<td>
+First Name:</td>
+<td> 
+<input type="text" name="First name">
+</td>
+<td> 
+Last Name:</td><td>
+<input type="text" name="Last name"></td></tr>
+<tr>
+<td>
+Date of birth:</td><td>
+<input type="date" id="dob" name="dob">
+</td>
+<td>
+Age:</td><td>
+<input type="numbers" id="age" name=" age" min="0" max="100" required></td></tr>
+<tr>
+<td>
+Gender:</td><td>
+<select name="Gender" id="gender">
+ <option value="Male"> Male </option>
+ <option value="Female"> Female </option>
+</select>
+</td><td>
+Email Address:</td><td>
+<input type="email" id="email" name="email" placeholder="Enter email address">
+</td></tr>
+<tr><td colspan="4">
+Positions Available:
+<input type="radio" name="Positions Available">
+<label for="Junior Developer">Junior Developer</label>
+<input type="radio" name="Positions Available" >
+<label for="Mid-level Developer">Mid-level Developer</label>
+<input type="radio" name="Positions Available" >
+<label for="Senior Developer">senior Developer</label>
+</td></tr>
+<tr><td colspan="4">
+Programming Language:
+<input type="checkbox" name="Programming Language">
+<label for="Java">Java</label>
+<input type="checkbox" name="Programming Language">
+<label for="JavaScript">JavaScript</label>
+<input type="checkbox" name="Programming Language">
+<label for="python">Python</label>
+</td></tr>
+<tr><td>
+Password:</td><td>
+<input type="password" id="password" name="password" size="15" required></td><td>
+comfirm Password:</td><td>
+<input type="password" id="comfirm_password" name="comfirm_password" size="15" required>
+</td>
+</tr>
+<tr>
+<td colspan="4" align="center">
+<input type="Submit" value="submit">
+<input type="reset" value="reset">
+</td>
+</tr>
+</form>
+</table>
+</center>
+</body>
+</html>
+
+
